@@ -8,7 +8,6 @@ aiohttp==3.5.4            # via raven-aiohttp, yacron
 aiosmtpd==1.2             # via -r requirements.in
 aiosmtplib==1.0.6         # via yacron
 alembic==1.0.10           # via flask-migrate
-appnope==0.1.0            # via ipython
 arrow==0.14.2             # via -r requirements.in
 asn1crypto==0.24.0        # via cryptography
 async-timeout==3.0.1      # via aiohttp
@@ -50,7 +49,7 @@ google-api-python-client==1.7.11  # via -r requirements.in
 google-auth-httplib2==0.0.3  # via -r requirements.in, google-api-python-client
 google-auth==1.11.2       # via google-api-python-client, google-auth-httplib2
 gunicorn==19.9.0          # via -r requirements.in
-httplib2==0.17.0          # via google-api-python-client, google-auth-httplib2
+httplib2==0.18.0          # via google-api-python-client, google-auth-httplib2
 humanfriendly==4.18       # via coloredlogs
 idna==2.8                 # via requests, yarl
 importlib-metadata==0.18  # via pluggy, pytest
